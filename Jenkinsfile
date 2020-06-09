@@ -6,7 +6,7 @@ agent any
         Register ="damier85/damier-raymond"
         RegisterCrudential ="Mydocker20"
         dockerImage =""
-        forTheAWSecr="367484709954.dkr.ecr.us-east-2.amazonaws.com/caliber-asssessment"
+        forTheAWSecr="367484709954.dkr.ecr.us-east-2.amazonaws.com/caliber-assessment"
         Region ="ecr:us-east-2"
         ID="damierTestEcr"
         Svc_Name="caliber-assessment"
@@ -59,7 +59,7 @@ stages{
 stage('package the App'){
         steps
         {
-            sh "mvn clean package"
+            sh "mvn clean package -DskipTests"
         }
     }
     
