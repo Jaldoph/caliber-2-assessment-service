@@ -6,7 +6,7 @@ agent any
         Register ="damier85/damier-raymond"
         RegisterCrudential ="Mydocker20"
         dockerImage =""
-        forTheAWSecr="367484709954.dkr.ecr.us-east-2.amazonaws.com/caliber-config"
+        forTheAWSecr="367484709954.dkr.ecr.us-east-2.amazonaws.com/caliber-asssessment"
         Region ="ecr:us-east-2"
         ID="damierTestEcr"
         Svc_Name="caliber-assessment"
